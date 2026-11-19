@@ -1,0 +1,9 @@
+# Não inserir exports operacionais ou artefatos com informações sensíveis
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*backup*
+node_modules/
+.DS_Store
